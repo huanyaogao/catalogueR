@@ -111,7 +111,8 @@ tabix_reader <- function(tabix_path,
 
   # get_os()=="osx"
   options(download.file.method = "curl")
-  tabix <- cat("broken call to tabix function") # CONDA.find_package(package="tabix", 
+  tabix <- cat("broken call to tabix function") 
+                     # CONDA.find_packages(package="tabix", 
                      #         conda_env=conda_env)
   tabix_cmd <- paste(tabix,
                      # "--print-header",  
