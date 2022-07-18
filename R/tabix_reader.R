@@ -17,10 +17,10 @@ tabix_reader <- function(tabix_path,
 
     # get_os()=="osx"
     options(download.file.method = "curl")
-    tabix <- echoconda::find_package(
-        package = "tabix",
-        conda_env = conda_env
-    )
+    tabix <- cat("broken call to tabix function") #echoconda::find_package(
+        #package = "tabix",
+        #conda_env = conda_env
+    #)
     tabix_cmd <- paste(
         tabix,
         # "--print-header",
