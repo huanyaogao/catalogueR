@@ -4,7 +4,7 @@
 #' \link[data.table]{fread}.
 #'
 #' @keywords internal
-#' @importFrom echoconda find_package
+#' @importFrom echoconda find_packages
 #' @importFrom data.table fread
 tabix_reader <- function(tabix_path,
                          region,
